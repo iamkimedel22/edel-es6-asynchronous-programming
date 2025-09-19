@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="ES6 Advanced Concepts, Classes, and Asynchronous JavaScript with Promises, Async/Await, and Fetch API">
+    <title>ES6 Asynchronous Programming - Student Management System</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>🎓 Student Management System</h1>
+            <p>ES6 Classes, Promises, Async/Await & Fetch API Demo</p>
+        </header>
+
+        <main>
+            <div class="controls">
+                <button id="loadWithPromises" class="btn btn-primary">Load Data with Promises</button>
+                <button id="loadWithAsyncAwait" class="btn btn-success">Load Data with Async/Await</button>
+                <button id="clearData" class="btn btn-danger">Clear Data</button>
+            </div>
+
+            <div id="loading" class="loading hidden">
+                <div class="spinner"></div>
+                <p>Loading data...</p>
+            </div>
+
+            <div id="output" class="output"></div>
+        </main>
+
+        <footer>
+            <p>Built with ES6 Classes, Promises, Async/Await & Fetch API</p>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
